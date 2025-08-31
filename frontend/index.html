@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PHP8 初級 模擬試験</title>
+  <meta name="color-scheme" content="dark" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="hdr">
+    <h1>PHP8 初級 模擬試験</h1>
+    <div class="meta">
+      <span>40問 / 60分 / 合格70%</span>
+      <span id="timer">60:00</span>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="config" class="panel">
+      <h2>設定</h2>
+      <div class="row">
+        <label>API</label>
+        <input id="apiBase" type="url" value="https://YOUR-SUBDOMAIN.workers.dev/api" />
+      </div>
+      <button id="startBtn" class="btn">開始</button>
+      <p class="note">※ GitHub Pages ドメインは backend 側で CORS 許可が必要。</p>
+    </section>
+
+    <section id="exam" class="panel hidden">
+      <div class="progress">Q <span id="qnum">1</span> / <span id="qtotal">0</span></div>
+      <div id="qtext" class="qtext"></div>
+      <div id="qmeta" class="qmeta"></div>
+      <form id="qform" class="options"></form>
+      <div class="nav">
+        <button id="prevBtn" class="btn secondary">前へ</button>
+        <button id="nextBtn" class="btn">次へ</button>
+        <button id="finishBtn" class="btn danger">全体集計</button>
+      </div>
+      <div id="instant" class="panel hidden"></div>
+    </section>
+
+    <section id="result" class="panel hidden">
+      <h2>結果</h2>
+      <div id="scoreLine" class="score"></div>
+      <div id="detail"></div>
+      <div class="nav"><button id="retryBtn" class="btn">最初から</button></div>
+    </section>
+  </main>
+
+  <footer class="ftr"><small>© 2025</small></footer>
+  <script src="./app.js"></script>
+</body>
+</html>

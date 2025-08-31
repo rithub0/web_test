@@ -1,0 +1,15 @@
+[
+  {
+    "id": "q10_0001",
+    "chapter": "第10章 オブジェクト指向",
+    "type": "single",
+    "text": "コンストラクタプロパティプロモーションの正例はどれ？",
+    "options": [
+      "class A{function __construct(public $x){}}",
+      "class A{__construct(public $x){}}",
+      "class A{function __construct($public $x){}}",
+      "class A{function __construct(public int $x){}}"
+    ],
+    "explanation": "PHP8では__constructの引数に可視性と型を指定できる。"
+  }
+]

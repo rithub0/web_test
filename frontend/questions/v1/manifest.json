@@ -1,0 +1,49 @@
+{
+  "version": "v1",
+  "total_target": 40,
+  "chapters": [
+    {
+      "id": "02_basics",
+      "title": "第2章 PHPの基本",
+      "ratio": 0.125,
+      "count": 240,
+      "shards": [
+        "chapters/02_basics_0001-0100.json",
+        "chapters/02_basics_0101-0200.json",
+        "chapters/02_basics_0201-0240.json"
+      ]
+    },
+    {
+      "id": "03_operators",
+      "title": "第3章 演算子",
+      "ratio": 0.10,
+      "count": 200,
+      "shards": [
+        "chapters/03_operators_0001-0100.json",
+        "chapters/03_operators_0101-0200.json"
+      ]
+    },
+    {
+      "id": "04_control",
+      "title": "第4章 制御構文",
+      "ratio": 0.138,
+      "count": 300,
+      "shards": [
+        "chapters/04_control_0001-0100.json",
+        "chapters/04_control_0101-0200.json",
+        "chapters/04_control_0201-0300.json"
+      ]
+    },
+    {
+      "id": "10_oop",
+      "title": "第10章 オブジェクト指向",
+      "ratio": 0.175,
+      "count": 350,
+      "shards": [
+        "chapters/10_oop_0001-0100.json",
+        "chapters/10_oop_0101-0200.json",
+        "chapters/10_oop_0201-0350.json"
+      ]
+    }
+  ]
+}
