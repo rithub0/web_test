@@ -8,7 +8,7 @@
       "ratio": 0.125,
       "count": 240,
       "shards": [
-        "chapters/02_basics_0001-0100.json",
+        "chapters/02_basics_0001-0100.json"
       ]
     },
     {
@@ -17,7 +17,7 @@
       "ratio": 0.10,
       "count": 200,
       "shards": [
-        "chapters/03_operators_0001-0100.json",
+        "chapters/03_operators_0001-0100.json"
       ]
     },
     {
@@ -26,7 +26,7 @@
       "ratio": 0.138,
       "count": 300,
       "shards": [
-        "chapters/04_control_0001-0100.json",
+        "chapters/04_control_0001-0100.json"
       ]
     },
     {
@@ -35,7 +35,7 @@
       "ratio": 0.175,
       "count": 350,
       "shards": [
-        "chapters/10_oop_0001-0100.json",
+        "chapters/10_oop_0001-0100.json"
       ]
     }
   ]
