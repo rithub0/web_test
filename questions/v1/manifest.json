@@ -9,8 +9,6 @@
       "count": 240,
       "shards": [
         "chapters/02_basics_0001-0100.json",
-        "chapters/02_basics_0101-0200.json",
-        "chapters/02_basics_0201-0240.json"
       ]
     },
     {
@@ -20,7 +18,6 @@
       "count": 200,
       "shards": [
         "chapters/03_operators_0001-0100.json",
-        "chapters/03_operators_0101-0200.json"
       ]
     },
     {
@@ -30,8 +27,6 @@
       "count": 300,
       "shards": [
         "chapters/04_control_0001-0100.json",
-        "chapters/04_control_0101-0200.json",
-        "chapters/04_control_0201-0300.json"
       ]
     },
     {
@@ -41,8 +36,6 @@
       "count": 350,
       "shards": [
         "chapters/10_oop_0001-0100.json",
-        "chapters/10_oop_0101-0200.json",
-        "chapters/10_oop_0201-0350.json"
       ]
     }
   ]
