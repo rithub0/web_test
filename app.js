@@ -153,7 +153,9 @@ function summaryLocal(){
 document.addEventListener("DOMContentLoaded", async ()=>{
   $("startBtn").addEventListener("click", async ()=>{
     try{
-      API_BASE = $("apiBase").value.replace(/\/+$/,"") + "/api";
+      // 置き換え前: API_BASE = $("apiBase").value.replace(/\/+$/,"") + "/api";
+      API_BASE = $("apiBase").value.replace(/\/+$/,"");
+      if (!/\/api$/.test(API_BASE)) API_BASE += "/api";
       await buildPlanAndQuestions();       // 比率→40問抽出（静的CDNのみ）
       await openSession();                 // 署名トークン取得（無状態）
       INDEX=0; ANSWERS={}; CORRECT_FLAGS={}; TIMER=TIME_LIMIT_SEC; setTimer(TIMER);
